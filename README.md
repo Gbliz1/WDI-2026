@@ -1,5 +1,23 @@
 # WDI 2026 — laboratoria
 
+**Materiały kursowe:** [Wprowadzenie do programowania w języku ANSI C](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C)
+
+**Prowadzący:** por. mgr inż. Jakub Grątkiewicz
+
+**Kontakt:** [jakub.gratkiewicz@wat.edu.pl](mailto:jakub.gratkiewicz@wat.edu.pl)
+
+## Rekomendowane oprogramowanie
+
+Zaleca się korzystanie z kompilatora obsługującego standard C90 (ANSI C) i włączenie tego standardu podczas kompilacji. Na przykład w [GCC](https://gcc.gnu.org/onlinedocs/gcc/Standards.html) służy do tego opcja `-std=c90`.
+
+Do pracy nad zadaniami warto skonfigurować jedno z poniższych środowisk lub inne proste środowisko do programowania w C:
+
+- [CLion](https://www.jetbrains.com/clion/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Code::Blocks](https://www.codeblocks.org/downloads/)
+
+Nie zaleca się korzystania z [Visual Studio](https://visualstudio.microsoft.com/downloads/). Jest to rozbudowane IDE, którego możliwości znacznie wykraczają poza potrzeby nauki podstaw programowania.
+
 ## Zasady oceniania
 
 Laboratoria obejmują 11 spotkań stacjonarnych w sali laboratoryjnej. Każde spotkanie trwa 2 × 45 minut.
