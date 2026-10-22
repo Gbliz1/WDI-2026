@@ -68,7 +68,7 @@ Foldery `01`–`09` odpowiadają spotkaniom, do których przypisano zestawy zada
 
 Zestawy na kolejne spotkania mogą ulec zmianie przed rozpoczęciem tych zajęć. Z tego powodu nie zaleca się rozwiązywania zadań z wyprzedzeniem.
 
-1. Utwórz fork [repozytorium kursu](https://github.com/WDI-WDP/WDI-2026) na swoim koncie GitHub i wyślij prowadzącemu e-mailem link do tego forka.
+1. Utwórz fork [repozytorium kursu](https://github.com/WDI-WDP/WDI-2026) na swoim koncie GitHub i wyślij prowadzącemu e-mailem/poprzez MS Teams link do tego forka.
 2. Przed rozpoczęciem pracy nad zestawem podczas zajęć sprawdź, czy Twój fork wymaga synchronizacji z repozytorium kursu. Jeśli tak, zsynchronizuj go i zaktualizuj lokalną kopię repozytorium.
 3. Umieść rozwiązania w odpowiednich podfolderach, zapisz zmiany w lokalnym repozytorium i wyślij je do swojego forka na GitHub.
 
