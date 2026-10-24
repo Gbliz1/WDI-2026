@@ -1,0 +1,12 @@
+int zad3()
+{
+    char litera;
+    int wiek;
+    printf("Podaj 1. litere imienia\n");
+    scanf("%c",&litera);
+    printf("Podaj wiek\n");
+    scanf("%d",&wiek);
+    printf("Inicjal: %c wiek:%d",litera,wiek);
+
+    return 0;
+}
