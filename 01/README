@@ -1,0 +1,6 @@
+Struktura projektu:
+1) Każde zadanie zostało zaimplementowane w osobnym pliku znajdującym się w odpowiednim folderze.
+2) Rozwiązanie każdego zadania zostało umieszczone w oddzielnej funkcji.
+3) Funkcje zostały nazwane zgodnie z numerami zadań, np. zad1(), zad2(), zad3() itd.
+4) W pliku main.c w funkcji main() znajdują się wywołania poszczególnych funkcji odpowiadających zadaniom.
+5) Część wywołań funkcji została zakomentowana, ponieważ były używane wyłącznie podczas testowania programu.
