@@ -1,0 +1,29 @@
+int zad3() {
+    int a,b;
+    char dzialanie;
+    int wynik=0;
+    printf("Podaj dwie liczby i dzialanie, ktore chcesz wykonac: \n");
+    scanf("%d %d  %c", &a, &b ,&dzialanie);
+    switch (dzialanie) {
+        case '+':
+            return a+b;
+        case '-':
+            return a-b;
+        case '/':
+            if (b!=0) {
+                return a/b;
+            }else {
+                return 1;
+            }
+        case '*':
+            return a*b;
+        case '%':
+            if (b!=0) {
+                return a%b;
+            }else {
+                return 1;
+            }
+        default:
+            printf("Nie ma takiego znaku");
+    }
+}
