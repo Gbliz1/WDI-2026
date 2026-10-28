@@ -1,0 +1,93 @@
+int zad4(void) {
+    int l;
+    int val1 = 0, val2 = 0;
+    char znak = '\0';
+
+    int czy_val1 = 0;
+    int czy_val2 = 0;
+    int czy_znak = 0;
+
+    do {
+        printf("\nWybierz opcje:\n");
+        printf("1) Podaj pierwsza liczbe\n");
+        printf("2) Podaj druga liczbe\n");
+        printf("3) Wybierz dzialanie (+, -, *, /, %%)\n");
+        printf("4) Zakoncz program\n");
+
+        printf("Obecna wartosc pierwszej liczby: %d\n", val1);
+        printf("Obecna wartosc drugiej liczby: %d\n", val2);
+
+        if (znak != '\0')
+            printf("Obecne dzialanie: %c\n", znak);
+        else
+            printf("Obecne dzialanie: brak\n");
+
+        scanf("%d", &l);
+
+        switch (l) {
+
+            case 1:
+                printf("Podaj pierwsza liczbe: ");
+                scanf("%d", &val1);
+                czy_val1 = 1;
+                break;
+
+            case 2:
+                printf("Podaj druga liczbe: ");
+                scanf("%d", &val2);
+                czy_val2 = 1;
+                break;
+
+            case 3:
+                printf("Podaj dzialanie (+, -, *, /, %%): ");
+                scanf(" %c", &znak);
+                czy_znak = 1;
+
+                if (czy_val1 && czy_val2 && czy_znak) {
+
+                    switch (znak) {
+
+                        case '+':
+                            return val1 + val2;
+
+                        case '-':
+                            return val1 - val2;
+
+                        case '*':
+                            return val1 * val2;
+
+                        case '/':
+                            if (val2 == 0) {
+                                printf("Nie mozna dzielic przez 0!\n");
+                                break;
+                            }
+                            return val1 / val2;
+
+                        case '%':
+                            if (val2 == 0) {
+                                printf("Nie mozna wykonac modulo przez 0!\n");
+                                break;
+                            }
+                            return val1 % val2;
+
+                        default:
+                            printf("Niepoprawne dzialanie!\n");
+                    }
+                }
+                else {
+                    printf("Najpierw podaj obie liczby oraz dzialanie!\n");
+                }
+
+                break;
+
+            case 4:
+                printf("Koniec programu.\n");
+                break;
+
+            default:
+                printf("Nie ma takiej opcji!\n");
+        }
+    } while (l != 4);
+
+    return 0;
+}
