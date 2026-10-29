@@ -1,4 +1,4 @@
-int zad4()
+int main()
 {
     int a,b,c,suma,roznica=0,iloczyn=0,iloraz=0;
     printf("Podaj wartosci liczb\n");
