@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 float zad13() {
     int liczba;
     int i;
@@ -14,5 +16,11 @@ float zad13() {
     printf("Suma liczb %d\n",suma);
     avg=(float)suma/liczba;
     printf("Srednia liczb %f\n",avg);
+    return 0;
+}
+
+int main() {
+    zad13();
+    
     return 0;
 }
