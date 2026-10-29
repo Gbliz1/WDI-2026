@@ -7,3 +7,10 @@ float zad5()
     avg=(float)(a+b+c+d+e)/5;
     return avg;
 }
+
+int main() {
+    float wynik = zad5();
+    printf("Średnia wynosi: %.2f\n", wynik);
+    
+    return 0;
+}
