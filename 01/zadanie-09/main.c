@@ -1,4 +1,4 @@
-int zad9() {
+int main() {
     int a,b;
     printf("Podaj dwie liczby:\n");
     scanf("%d %d", &a, &b);
@@ -13,4 +13,5 @@ int zad9() {
             printf("Liczba %d NIE jest dzielnikiem liczby %d",b,a);
         }
     }
+    return 0;
 }
