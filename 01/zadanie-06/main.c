@@ -17,3 +17,7 @@ int zad6() {
     }
     return 0;
 }
+int main() {
+    zad6();
+    return 0;
+}
