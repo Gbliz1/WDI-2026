@@ -1,3 +1,4 @@
+#include <stdio.h>
 float zad5()
 {
     int a,b,c,d,e;
