@@ -95,7 +95,7 @@ int main(void) {
     // - WYwolywanie 
     // prog1();
     // prog2();
-    // prog3();
+    prog3();
     printf("Suma: %d\n", g_suma);
     printf("Min: %d\n", g_min);
     printf("Max: %d\n", g_max);
