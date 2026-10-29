@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 float zad10()
 {
     int tab[5];
@@ -16,4 +18,11 @@ float zad10()
     printf("Liczba ocen ndost %d\n",licznik);
     avg=(float)suma/5;
     return avg;
+}
+
+int main() {
+    float srednia = zad10();
+    printf("Srednia ocen wynosi: %.2f\n", srednia);
+    
+    return 0;
 }
