@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int zad2() {
     int n;
     int i;
@@ -10,4 +12,12 @@ int zad2() {
         suma+= i*i;
     }
     return suma;
+}
+
+int main() {
+    printf("Podaj liczbe n (max 100):\n");
+    int wynik = zad2();
+    printf("Wynik (suma kwadratow) wynosi: %d\n", wynik);
+    
+    return 0;
 }
