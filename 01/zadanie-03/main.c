@@ -1,4 +1,4 @@
-int zad3()
+int main()
 {
     char litera;
     int wiek;
