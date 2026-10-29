@@ -1,0 +1,12 @@
+int zad7() {
+    const unsigned granica = 20U;
+    int unsigned wynik = 0U;
+    int unsigned i;
+    for (i = 1U; i <= granica; i++) {
+        if (i%3U == 0U) {
+            wynik += i;
+        }
+    }
+
+    return wynik;
+}
