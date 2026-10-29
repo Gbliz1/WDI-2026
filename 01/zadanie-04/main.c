@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main()
 {
     int a,b,c,suma,roznica=0,iloczyn=0,iloraz=0;
