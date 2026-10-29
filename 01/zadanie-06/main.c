@@ -1,3 +1,4 @@
+#include <stdio.h>
 int zad6() {
     int sekunda;
     int godzina;
