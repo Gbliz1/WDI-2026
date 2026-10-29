@@ -1,4 +1,4 @@
-int zad5() {
+int main() {
     int ranga;
 
     printf("Podaj range (1-5):\n 1 - Poddany\n 2 - Giermek\n 3 - Rycerz\n 4 - Mag\n 5 - Krolowa\n");
@@ -20,4 +20,5 @@ int zad5() {
         default:
             printf("Niepoprawna ranga\n");
     }
+    return 0;
 }
