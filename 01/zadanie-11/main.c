@@ -1,4 +1,4 @@
-int zad11()
+int main()
 {
     int liczba;
     printf("Podaj liczbe\n");
