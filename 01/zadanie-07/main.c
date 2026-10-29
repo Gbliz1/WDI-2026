@@ -1,4 +1,4 @@
-int zad7()
+int main()
 {
     int l1, l2;
     printf("Podaj dwie liczby:\n");
