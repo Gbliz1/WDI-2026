@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 float zad8()
 {
     int a, b;
@@ -45,8 +47,14 @@ float zad8()
     else
     {
         printf("Nieznane dzialanie\n");
-        return 0;
+            return 0;
     }
     printf("Wynik = %.2f\n", wynik);
     return wynik;
+}
+
+int main() {
+    float zwrocona_wartosc = zad8();
+    
+    return 0;
 }
