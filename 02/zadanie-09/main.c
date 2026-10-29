@@ -1,4 +1,4 @@
-int silnia(a) {
+int silnia(int a) {
     int wynik=1;
     int i;
     for (i = 1; i <= a; i++) {
