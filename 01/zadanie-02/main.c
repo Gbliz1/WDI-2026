@@ -1,4 +1,4 @@
-int zad2() {
+int main() {
     double liczba;
     printf("Podaj liczbe zmiennoprzecinkowa\n");
     scanf("%lf", &liczba);
