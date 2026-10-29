@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main() {
     double liczba;
     printf("Podaj liczbe zmiennoprzecinkowa\n");
