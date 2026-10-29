@@ -1,4 +1,4 @@
-int zad6() {
+int main() {
     int miesiac;
     printf("Podaj numer miesiaca\n");
     scanf("%d", &miesiac);
