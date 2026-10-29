@@ -1,4 +1,4 @@
-int zad4(void) {
+int main(void) {
     int l;
     int val1 = 0, val2 = 0;
     char znak = '\0';
