@@ -1,4 +1,4 @@
-int zad1() {
+int main() {
     int wiek = 0;
 
     printf("Hej, ile masz lat?\n");
