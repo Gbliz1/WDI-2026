@@ -22,3 +22,8 @@ int zad5_2(int tablica[10]) {
         i--;
     } while (i >= 0);
 }
+int main(void) {
+    int tab[10];
+    zad5_2(tab);
+    return 0;
+}
