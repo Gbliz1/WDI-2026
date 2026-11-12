@@ -27,3 +27,9 @@ long fibonacci_suma(int n) {
 
     return suma;
 }
+
+int main(void) {
+    int n = 10;
+    printf("%ld\n", fibonacci_suma(n));
+    return 0;
+}
