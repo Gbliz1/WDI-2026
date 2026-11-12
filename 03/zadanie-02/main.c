@@ -12,3 +12,10 @@ int funkcja_f(int x) {
             return (funkcja_f(x-1)*funkcja_f(x-2))-funkcja_f(x-3);
     }
 }
+
+int main(void) {
+    int x;
+    scanf("%d",&x);
+    printf("f(%d) = %d\n", x, funkcja_f(x));
+    return 0;
+}
