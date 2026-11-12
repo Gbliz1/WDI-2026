@@ -21,4 +21,12 @@ int zad5_1(int tablica[10]) {
         printf("%d\n", tablica[i]);
         i++;
     } while (i < 10);
+    
+    return 0;
+}
+
+int main(void) {
+    int tab[10];
+    zad5_1(tab);
+    return 0;
 }
